@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <!-- Main Css File -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Normalize File -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Font Awesome Library-->  
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+    <div class="todo-container">
+        <div class="add-task">
+            <input type="text" name="task">
+            <span class="plus">+</span>
+        </div>
+        <div class="tasks-content">
+            <div class="no-tasks-msg">
+                No Tasks To Show
+            </div>
+            <div class="tasks-catcher">
+            </div>
+        </div>
+    </div>
+    <div class="task-stats">
+        <div class="tasks-count">
+            Tasks <span>0</span>
+        </div>
+        <div class="tasks-completed">
+            Completed <span>0</span>
+        </div>
+    </div>
+    <div class="control-tasks">
+        <div class="finishedAll">
+            Finished All
+        </div>
+        <div class="deleteAll">
+            Delete All
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
